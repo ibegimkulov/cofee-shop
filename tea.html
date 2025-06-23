@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Меню Чай — Coffee House</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/tea.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="logo">Coffee House</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="nav-button">Главная</a></li>
+          <li><a href="coffee.html" class="nav-button">Кофе</a></li>
+          <li><a href="tea.html" class="nav-button">Чай</a></li>
+          <li><a href="desserts.html" class="nav-button">Десерты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="menu">
+    <div class="container">
+      <h2>Чай</h2>
+      <ul class="menu-list">
+       <li class="menu-item" data-title="Зелёный чай" data-description="Лёгкий и освежающий напиток." data-price="8000 сум">
+  <div class="card">
+    <img src="images/green-tea.jpg" alt="Зелёный чай" class="menu-img">
+    <h3>Зелёный чай</h3>
+    <p>Лёгкий и освежающий напиток.</p>
+    <span class="price">8000 сум</span>
+  </div>
+</li>
+        <li class="menu-item" data-title="Чёрный чай" data-description="Классический крепкий индийский чай." data-price="7000 сум">
+  <div class="card">
+    <img src="images/black-tea.jpg" alt="Чёрный чай" class="menu-img">
+    <h3>Чёрный чай</h3>
+    <p>Классический крепкий индийский чай.</p>
+    <span class="price">7000 сум</span>
+  </div>
+</li>
+        <li class="menu-item" data-title="Имбирный чай" data-description="Чай с имбирём, лимоном и мёдом." data-price="9000 сум">
+  <div class="card">
+    <img src="images/ginger-tea.jpg" alt="Имбирный чай" class="menu-img">
+    <h3>Имбирный чай</h3>
+    <p>Чай с имбирём, лимоном и мёдом.</p>
+    <span class="price">9000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Мятный чай" data-description="Чай с листьями свежей мяты." data-price="8000 сум">
+  <div class="card">
+    <img src="images/mint-tea.jpg" alt="Мятный чай" class="menu-img">
+    <h3>Мятный чай</h3>
+    <p>Чай с листьями свежей мяты.</p>
+    <span class="price">8000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Ягодный чай" data-description="Смесь с лесными ягодами." data-price="10000 сум">
+  <div class="card">
+    <img src="images/berry-tea.jpg" alt="Ягодный чай" class="menu-img">
+    <h3>Ягодный чай</h3>
+    <p>Смесь с лесными ягодами.</p>
+    <span class="price">10000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Облепиховый чай" data-description="Тёплый чай с облепихой и мёдом." data-price="11000 сум">
+  <div class="card">
+    <img src="images/sea-buckthorn.jpg" alt="Облепиховый чай" class="menu-img">
+    <h3>Облепиховый чай</h3>
+    <p>Тёплый чай с облепихой и мёдом.</p>
+    <span class="price">11000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Матча латте" data-description="Японский чай с молоком." data-price="13000 сум">
+  <div class="card">
+    <img src="images/matcha-latte.jpg" alt="Матча латте" class="menu-img">
+    <h3>Матча латте</h3>
+    <p>Японский чай с молоком.</p>
+    <span class="price">13000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Чай с жасмином" data-description="Нежный ароматный чай с жасмином." data-price="9000 сум">
+  <div class="card">
+    <img src="images/jasmine-tea.jpg" alt="Чай с жасмином" class="menu-img">
+    <h3>Чай с жасмином</h3>
+    <p>Нежный ароматный чай с жасмином.</p>
+    <span class="price">9000 сум</span>
+  </div>
+</li>
+      </ul>
+    </div>
+  </section>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+      <p><strong id="modal-price"></strong></p>
+    </div>
+  </div>
+
+  <button id="scrollToTopBtn" title="Наверх">↑</button>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Coffee House. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

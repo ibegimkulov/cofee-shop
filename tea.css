@@ -1,0 +1,77 @@
+body {
+    background-color: #f3fff3;
+    color: #2f2f2f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header.hero {
+    background-color: #d4efd4;
+    color: #2f6e2f;
+    padding: 2rem 0;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.main-nav a {
+    color: #2f6e2f;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: transform-color 0.2s ease;
+}
+
+.main-nav a:hover {
+    background-color: #e2f9e2;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.menu-list li {
+    background-color: #ffffff;
+    border: 1px solid #bde3bd;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.menu-list li:hover {
+    transform: scale(1.02);
+    background-color: #eafde9;
+}
+
+.menu-item h3 {
+    color: #2f6e2f;
+}
+
+.price {
+    color: #3b803b;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+footer {
+    background-color: #d4efd4;
+    color: #2f6e2f;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}

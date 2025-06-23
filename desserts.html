@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Меню Десерты — Coffee House</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/desserts.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="logo">Coffee House</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="nav-button">Главная</a></li>
+          <li><a href="coffee.html" class="nav-button">Кофе</a></li>
+          <li><a href="tea.html" class="nav-button">Чай</a></li>
+          <li><a href="desserts.html" class="nav-button">Десерты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="menu">
+    <div class="container">
+      <h2>Десерты</h2>
+      <ul class="menu-list">
+       <li class="menu-item" data-title="Чизкейк" data-description="Нежный десерт с сыром маскарпоне." data-price="15000 сум">
+  <div class="card">
+    <img src="images/cheesecake.jpg" alt="Чизкейк" class="menu-img">
+    <h3>Чизкейк</h3>
+    <p>Нежный десерт с сыром маскарпоне.</p>
+    <span class="price">15000 сум</span>
+  </div>
+</li>
+       <li class="menu-item" data-title="Тирамису" data-description="Итальянский десерт с кофе и маскарпоне." data-price="16000 сум">
+  <div class="card">
+    <img src="images/tiramisu.jpg" alt="Тирамису" class="menu-img">
+    <h3>Тирамису</h3>
+    <p>Итальянский десерт с кофе и маскарпоне.</p>
+    <span class="price">16000 сум</span>
+  </div>
+</li>
+       <li class="menu-item" data-title="Шоколадный торт" data-description="Сочный торт с тёмным шоколадом." data-price="14000 сум">
+  <div class="card">
+    <img src="images/chocolate-cake.jpg" alt="Шоколадный торт" class="menu-img">
+    <h3>Шоколадный торт</h3>
+    <p>Сочный торт с тёмным шоколадом.</p>
+    <span class="price">14000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Мороженое" data-description="Пломбир или фруктовое мороженое." data-price="9000 сум">
+  <div class="card">
+    <img src="images/ice-cream.jpg" alt="Мороженое" class="menu-img">
+    <h3>Мороженое</h3>
+    <p>Пломбир или фруктовое мороженое.</p>
+    <span class="price">9000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Круассан" data-description="Французская классика с маслом." data-price="7000 сум">
+  <div class="card">
+    <img src="images/croissant.jpg" alt="Круассан" class="menu-img">
+    <h3>Круассан</h3>
+    <p>Французская классика с маслом.</p>
+    <span class="price">7000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Медовик" data-description="Торт с мёдом и сметанным кремом." data-price="13000 сум">
+  <div class="card">
+    <img src="images/medovik.jpg" alt="Медовик" class="menu-img">
+    <h3>Медовик</h3>
+    <p>Торт с мёдом и сметанным кремом.</p>
+    <span class="price">13000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Наполеон" data-description="Слоёный десерт с заварным кремом." data-price="13000 сум">
+  <div class="card">
+    <img src="images/napoleon.jpg" alt="Наполеон" class="menu-img">
+    <h3>Наполеон</h3>
+    <p>Слоёный десерт с заварным кремом.</p>
+    <span class="price">13000 сум</span>
+  </div>
+</li>
+<li class="menu-item" data-title="Панна-котта" data-description="Итальянский сливочный десерт." data-price="14000 сум">
+  <div class="card">
+    <img src="images/panna-cotta.jpg" alt="Панна-котта" class="menu-img">
+    <h3>Панна-котта</h3>
+    <p>Итальянский сливочный десерт.</p>
+    <span class="price">14000 сум</span>
+  </div>
+</li>
+      </ul>
+    </div>
+  </section>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+      <p><strong id="modal-price"></strong></p>
+    </div>
+  </div>
+
+  <button id="scrollToTopBtn" title="Наверх">↑</button>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Coffee House. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
